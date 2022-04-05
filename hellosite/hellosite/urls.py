@@ -25,6 +25,5 @@ urlpatterns = [
     path('home/', HelloWorldView.as_view(), name='hello_world'),
     path('hello/<name>', HelloNameView.as_view(), name='hello_name'),
     path('goodbye/<name>', GoodbyeView.as_view(), name='goodbye'),
-    path('crypto/', CryptoStatsView.as_view(), name='crypto_value')
     
 ]
